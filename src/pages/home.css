@@ -1,0 +1,61 @@
+.home-container{
+  padding: 16px;
+  font-family: Arial,sans-serif;
+}
+.home-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+
+}
+.home-title{
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.add-icon{
+  font-size: 28px;
+  color: #007bff;
+  transition: color 0.2s ease-in-out;
+}
+.add-icon:hover{
+  color: #0056d3;
+}
+.table-container{
+  overflow-x: auto;
+}
+
+.books-table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 14px;
+}
+.books-table th,
+.books-table td{
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 8px;
+}
+.books-table th{
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.books-table tr:nth-child(even){
+  background-color: #f1f1f1;
+}
+.operations-container{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.icon{
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+.info-icon{
+  color: #218838;
+}
